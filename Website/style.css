@@ -1,0 +1,289 @@
+body{
+    background-color: black;
+}
+.navbar{
+    background-color: rgb(14, 2, 9);
+
+}
+.navbar ul li{
+    color: white !important;
+}
+.contactBtn{
+    border-radius: 20px;
+    color: white;
+    background: linear-gradient(to bottom, white,purple);
+    padding: 5px 10px ;
+    border: none;
+}
+.home {
+        background-image: url('./background2.PNG') !important;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        /* margin-top: 300px;  */
+}
+.color-text{
+    color: purple;
+
+}
+.caption{
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.caption h1{
+    font-size: 60px;
+    color: white;
+    font-weight: 700;
+}
+.budsBtn{
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-weight: 600;
+    color: white;
+    background-color: purple;
+}
+.caption p{
+    color: white;
+}
+.navbar-apna{
+    margin-bottom: 350px;
+}
+.cards{
+    top:80%;
+    position: absolute;
+}
+.card{
+    background-color: rgb(0, 0, 0) !important;
+    border: 1px solid purple !important;
+}
+.card-text{
+    color: white;
+}
+.cards{
+    margin-left:300px;
+}
+.card{
+
+}
+
+.cards {
+    margin-top: 50px;
+}
+.partners{
+    background-color: black;
+}
+.partners h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 700;
+}
+.partners h1 span{
+    color: purple !important;
+}
+.partners {
+    padding-top: 0px;
+}
+
+.partners-slider {
+    display: flex;
+    overflow: hidden; /* Hide the images that go out of view */
+    position: relative;
+    justify-content: space-between;
+}
+
+.partner-image {
+    width: 100%; /* Adjust image width as needed */
+    max-width: 150px; /* You can change this value to fit your design */
+    margin-right: 20px; /* Space between images */
+    object-fit: contain; /* Ensures the image fits inside the div without distortion */
+}
+
+/* CSS animation for sliding effect */
+@keyframes slideRightToLeft {
+    0% {
+        transform: translateX(100%); /* Start off to the right */
+    }
+    100% {
+        transform: translateX(-100%); /* Move to the left */
+    }
+}
+
+.partners-slider {
+    animation: slideRightToLeft 10s linear infinite; /* Slide animation */
+}
+
+.partners-slider img:last-child {
+    margin-right: 0; /* Remove margin from the last image */
+}
+.stepsToFollow{
+    padding-top: 100px;
+    background-color: black;
+}
+.stepsToFollow i{
+    padding: 5px;
+    color: purple;
+}
+.stepsToFollow h5{
+    
+    color: purple;
+    font-weight: 700;
+}
+.stepsToFollow h1 span{
+    color: purple;
+}
+.stepsToFollow h1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.competitions{
+    background-color: black;
+}
+.competitions h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 800;
+    color: purple;
+}
+.comp-1{
+    color: white !important;
+}
+.memberBtn{
+    background-color: purple;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+    border-radius: 20px;
+}
+.competitions i{
+    color: purple;
+}
+.competitions a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+
+.mini-carousel {
+    border: 2px solid purple;
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.carousel-description {
+    font-size: 1rem;
+    color: #555;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    display: none;
+}
+
+.dare{
+    background-color: black;
+}
+.dare h1{
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+}
+.dare .logo-box i{
+    margin-left: 10px;
+    color: purple;
+}
+.card-body .card-title{
+    font-size: 30px;
+    color: white;
+}
+
+/* Footer Styling */
+.footer {
+    background-color: #000; /* Black background */
+    color: white; /* White text color */
+}
+
+.footer-logo {
+    max-width: 150px; /* Logo size */
+}
+
+.footer h5 {
+    font-weight: bold;
+    color: white;
+}
+
+.footer a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.footer a:hover {
+    color: #f5a623; /* Change link color on hover */
+}
+
+.footer .list-unstyled {
+    padding-left: 0; /* Remove default padding */
+}
+
+.footer .list-unstyled li {
+    margin-bottom: 10px; /* Space between list items */
+}
+
+.footer .row {
+    margin-bottom: 20px;
+}
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+    .footer .row {
+        text-align: center;
+    }
+
+    .footer .col-md-4 {
+        margin-bottom: 20px;
+    }
+}
+.dark {
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 100px;
+    font-size: 500% !important;
+    color: purple;
+    background-color: black;
+    /* Adds space around the text */
+
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Horizontally center */
+    align-items: center; /* Vertically center */
+    margin: 0; /* Remove default margin */
+}
